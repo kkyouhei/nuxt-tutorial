@@ -4,6 +4,7 @@
       <router-link to="users" >
         <p>go users</p>
       </router-link>
+      <img src='~/assets/mountain.png' />
     </div>
   </div>
 </template>
