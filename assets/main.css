@@ -1,0 +1,22 @@
+.bounce-enter {
+  background-color: pink;
+  transition: opacity .3s, transform .3s;
+}
+.bounce-leave {
+  background-color: skyblue;
+  transition: opacity .3s, transform .3s;
+}
+
+.bounce-enter-active {
+  /* background-color: red; */
+  transition: opacity .3s, transform .3s;
+}
+.bounce-leave-leave{
+  /* background-color: blue; */
+  transition: opacity .3s, transform .3s;
+}
+.bounce-leave-active-to, .bounce-enter-active-to {
+  background-color: black;
+  transform: translateX(50%);
+  opacity: 0;
+}
